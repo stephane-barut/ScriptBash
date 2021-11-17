@@ -1,0 +1,12 @@
+#!/bin/bash
+apt update && apt -y full-upgrade && apt autoremove
+apt install vsftpd ssh iptables grep curl
+#config vsftpd ; /
+apt install vim emacs locate tree
+apt install apache2 libapache2-mod-php
+#apt install nginx php-fpm php-mysql
+#modules apaches ou config nginx ; /
+apt install mariadb-server php phpmyadmin
+#mariadb ; sudo mysql_secure_installation
+
+#modul php ; libapache2-mod-php

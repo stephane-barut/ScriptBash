@@ -1,0 +1,25 @@
+#!/bin/bash
+echo "argz * = $*";
+echo "entrez votre commande de création d'utilisateurs comme suit:
+skvar username usergroup nombre
+username=$1
+usergroup=$2
+nombre=$3 
+est-ce exact? (y/n)
+>"
+read reponse
+if reponse=y
+	echo "ok, c'est parti"
+fi
+if reponse=n
+	exit
+fi
+creer_user () 
+{
+	echo " $username fonction adduser ou useradd";
+	#useradd est plus simple adduser a une interface de question réponse
+} 
+
+creer_user
+
+

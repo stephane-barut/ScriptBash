@@ -1,0 +1,9 @@
+$1=nombre
+
+for ((i; i<= ${nombre} ; i++))
+do
+echo i
+done
+
+
+

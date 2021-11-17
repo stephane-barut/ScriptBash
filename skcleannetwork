@@ -1,0 +1,7 @@
+echo "auto ensp0s3 
+	iface ensp0s3 inet dhcp
+	auto enp0s8
+	iface enp0s8 inet dhcp"
+>> /etc/network/interfaces
+
+/etc/init.d/networking restart

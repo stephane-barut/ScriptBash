@@ -8,8 +8,8 @@ source /etc/network/interfaces.d/*
 auto lo
 iface lo inet loopback
 
-auto ensp0s3
-iface ensp0s3 inet dhcp
+auto enp0s3
+iface enp0s3 inet dhcp
 
 auto enp0s8
 iface enp0s8 inet dhcp

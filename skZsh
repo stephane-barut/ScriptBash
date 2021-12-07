@@ -1,5 +1,5 @@
 #!/bin/bash
-apt install -y zsh git-all
+apt install -y zsh git-all curl
 chsh -s $(which zsh)
 
 #/etc/shells 
